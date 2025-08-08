@@ -1,0 +1,55 @@
+Shaharyar Qureshi
+Lahore, Punjab Pakistan |sr54390@gmail.com |+92-336-8797279
+linkedin.com/in/shaharyar-qureshi-0499a5142 |github.com/shaharyar-qureshi
+Experienced Senior Software Engineer with over 4 years of experience delivering high-performance backend
+systems using Python, Ruby on Rails. I specialize in designing scalable, maintainable code that drives operational
+efficiency and enhances user experiences across various industries, including real estate, education, and mental
+wellness.
+Core strengths include:
+•Building and architect scalable backend systems using Ruby on Rails.
+•Designing and optimizing REST APIs
+•Leveraging Elasticsearch for fast, efficient data querying, Redis for improved caching and sidekiq for
+backround jobs
+•Collaborating with cross-functional teams in fast-paced, Agile environments.
+I’ve successfully led projects ranging from property management platforms to AI-powered chatbots and mental
+wellness apps, consistently achieving performance improvements, cost savings, and increased user engagement.
+Education
+Comsats University Islamabad Lahore , BS in Computer Science Feb 2017 – January 2021
+Experience
+Senior Software Engineer , Dubizzle Labs Mar 2024 – Feb 2025
+Maintained and enhanced a robust CRM platform tailored for property management and contract handling
+using Ruby on Rails. This included developing key features such as a recurring meeting module for streamlined
+scheduling, free services to boost user engagement, and an area visualization report powered by Elasticsearch
+for insightful data analysis. Integrated checkout services and WhatsApp lens management through platforms
+like Gupshup and Unifonic to improve communication workflows. Utilized Redis for caching, resulting in
+improved performance and responsiveness. Took on leadership responsibilities by managing a development
+team, mentoring junior engineers, leading Agile sprints, and collaborating with cross-functional teams to refine
+requirements and ensure successful project delivery.
+Software Engineer , Engin Technologies Oct 2021 – Feb 2024
+At Engin Technologies, I worked as a full-stack and backend-focused Software Engineer across multiple
+high-impact projects spanning diverse industries including property tech, education, wellness, and AI. I
+contributed to architecture, development, and integration tasks using technologies such as Ruby on Rails,
+Python, Django, PostgreSQL, Elasticsearch, Redis, and modern JavaScript frameworks like React and Ember.js.
+I led and supported the development of scalable systems, designed efficient APIs (REST), optimized backend
+processes, and integrated third-party services to deliver feature-rich applications. My role involved collaborating
+closely with cross-functional teams, mentoring junior developers, leading Agile sprints, and ensuring code
+quality through testing and modular design.
+Key Projects at Engin Technologies:
+•Homeflow (Apr 2023 – Feb 2024) : Led backend development using Ruby on Rails for a real estate platform.
+Optimized search features and integrated APIs via REST and gRPC.
+•Green Ant (Jan 2023 – Apr 2023) : Contributed to an educational platform using Django and Ember.js. Built
+backend services with Django and designed REST APIs for interactive content.
+
+•Mindtales (Oct 2022 – Jan 2023) : Developed a Django-based mental wellness app with analytics and
+personalized content. Integrated third-party APIs and REST support.
+•Telbee (Feb 2022 – Oct 2022) : Maintained a real-time voice messaging platform using Django. Focused on
+concurrency, backend scalability, and API integrations.
+•Kitchen Connection (Oct 2021 – Feb 2022) : Full-stack Ruby on Rails development for a culinary platform.
+Focused on backend optimization, performance, and user experience.
+Technologies
+Programming and Backend Technologies: Ruby on Rails, SQL, React, Django, REST APIs, MySQL, PostgreSQL,
+MongoDB, JavaScript, React Native, Ember.js
+Tools and Platforms: Git, OpenAI, ELK Stack (Elasticsearch, Logstash, Kibana), AWS S3, Redis, Jira, Sidekiq,
+GraphQL, RabbitMQ, AWS SQS, Docker, Apache Kafka, RDS, Puma, Nginx
+Other Skills: Prompt Engineering, API Development, Software Architecture, Agile Software Development,
+Maintainability, Scrum, Sprint Management

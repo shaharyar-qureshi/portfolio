@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <!-- Primary Meta -->
+    <title>Shaharyar Qureshi — Senior Software Engineer (Rails, Python)</title>
+    <meta name="description" content="Senior Software Engineer specializing in scalable backend systems (Ruby on Rails, Python), REST APIs, Elasticsearch, Redis/Sidekiq, and cloud integrations." />
+    <meta name="theme-color" content="#0b0f19" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Shaharyar Qureshi — Senior Software Engineer (Rails, Python)" />
+    <meta property="og:description" content="Scalable backend systems, APIs, search, caching, and platform engineering." />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Shaharyar Qureshi — Senior Software Engineer (Rails, Python)" />
+    <meta name="twitter:description" content="Scalable backend systems, APIs, search, caching, and platform engineering." />
+
+    <!-- Prefs & SEO -->
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Shaharyar Qureshi",
+        "jobTitle": "Senior Software Engineer",
+        "url": "",
+        "sameAs": [
+          "https://github.com/shaharyar-qureshi",
+          "https://www.linkedin.com/in/shaharyar-qureshi-0499a5142"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" aria-label="Skip to main content">Skip to content</a>
+
+    <!-- Transition overlay -->
+    <div id="transition" class="transition-overlay" aria-hidden="true"></div>
+
+    <!-- Ambient background canvas and scroll progress -->
+    <canvas id="bg-canvas" class="bg-canvas" aria-hidden="true"></canvas>
+    <div class="progress" id="progress" aria-hidden="true"></div>
+    <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+
+    <!-- Header / Navigation -->
+    <header class="site-header" id="top" role="banner">
+      <div class="container header-inner">
+        <a href="#top" aria-label="Home" class="brand-icon"><span class="dot"></span></a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" role="navigation" aria-label="Primary">
+          <ul class="nav-list">
+            <!-- Edit nav links to match section IDs -->
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#experience">Experience</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-cta">
+              <!-- Update the PDF path if you rename the CV file -->
+              <a class="btn btn--sm btn--primary magnetic ripple" href="ShaharyarQureshiCV.pdf" download>Download CV</a>
+            </li>
+          </ul>
+          <span class="nav-indicator" id="nav-indicator" aria-hidden="true"></span>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <!-- Hero Section: replace the image source with your own portrait -->
+      <section class="section hero" id="hero" aria-label="Intro">
+        <div class="container hero__grid">
+          <div class="hero__blob parallax" data-parallax="0.25" aria-hidden="true"></div>
+          <div class="hero__content reveal" data-tilt>
+            <p class="eyebrow">Senior Software Engineer</p>
+            <h4 class="headline" data-split>Hi,&nbsp;I’m&nbsp;<span class="gradient-text shimmer"><span class="type" data-typing='["Shaharyar Qureshi"]'></span></span></h4>
+            <p class="subhead">I build scalable backend platforms with Ruby on Rails and Python—designing REST APIs, high‑performance search with Elasticsearch, and resilient systems with Redis & Sidekiq.</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary magnetic ripple" href="ShaharyarQureshiCV.pdf" download>Download CV</a>
+              <a class="btn btn--ghost magnetic ripple" href="#contact">Get in touch</a>
+            </div>
+          </div>
+          <div class="hero__media reveal parallax" data-tilt data-parallax="0.12">
+            <img
+              src="assets/projects/shaharyar-qureshi-profile.jpg"
+              alt="Portrait of Shaharyar Qureshi"
+              width="480"
+              height="480"
+              decoding="async"
+              loading="eager"
+              fetchpriority="high"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section: add your bio and highlights -->
+      <section class="section" id="about" aria-label="About Me">
+        <div class="container">
+          <div class="section__header" data-split>
+            <h2>About Me</h2>
+            <p class="section__lede">A quick snapshot of who I am and how I work.</p>
+          </div>
+          <div class="about__grid">
+            <p class="reveal" data-tilt>Experienced Senior Software Engineer with 4+ years delivering high‑performance backend systems across real estate, education, and mental wellness. I specialize in scalable architectures with Ruby on Rails and Python, API design, and data platforms that enhance reliability, speed, and developer experience.</p>
+            <ul class="about__highlights reveal" data-tilt>
+              <li>Architect and build scalable systems with Ruby on Rails & Python</li>
+              <li>Design and optimize REST APIs; GraphQL where it adds value</li>
+              <li>Search with Elasticsearch; caching and jobs with Redis & Sidekiq</li>
+              <li>Cross‑functional collaboration in Agile environments; mentoring</li>
+              <li>Cloud & ops familiarity: AWS (S3, RDS, SQS), Docker, Nginx, Puma</li>
+            </ul>
+            <p class="reveal" style="margin-top:10px;color:var(--muted)">Education: BS in Computer Science — COMSATS University Islamabad, Lahore (Feb 2017 – Jan 2021)</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section: edit skills to match your stack -->
+      <section class="section" id="skills" aria-label="Skills">
+        <div class="container">
+          <div class="section__header" data-split>
+            <h2>Skills</h2>
+            <p class="section__lede">Tools and technologies I work with.</p>
+          </div>
+          <div class="chips reveal" role="list" data-tilt>
+            <span class="chip" role="listitem">Ruby on Rails</span>
+            <span class="chip" role="listitem">Python</span>
+            <span class="chip" role="listitem">Django</span>
+            <span class="chip" role="listitem">REST APIs</span>
+            <span class="chip" role="listitem">GraphQL</span>
+            <span class="chip" role="listitem">PostgreSQL</span>
+            <span class="chip" role="listitem">MySQL</span>
+            <span class="chip" role="listitem">MongoDB</span>
+            <span class="chip" role="listitem">Elasticsearch</span>
+            <span class="chip" role="listitem">Redis</span>
+            <span class="chip" role="listitem">Sidekiq</span>
+            <span class="chip" role="listitem">React</span>
+            <span class="chip" role="listitem">Ember.js</span>
+            <span class="chip" role="listitem">AWS (S3, RDS, SQS)</span>
+            <span class="chip" role="listitem">Docker</span>
+            <span class="chip" role="listitem">Kafka</span>
+            <span class="chip" role="listitem">RabbitMQ</span>
+            <span class="chip" role="listitem">Nginx</span>
+            <span class="chip" role="listitem">Puma</span>
+            <span class="chip" role="listitem">ELK Stack</span>
+            <span class="chip" role="listitem">Git</span>
+            <span class="chip" role="listitem">Jira</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section: add your roles chronologically -->
+      <section class="section" id="experience" aria-label="Experience">
+        <div class="container">
+          <div class="section__header" data-split>
+            <h2>Experience</h2>
+            <p class="section__lede">A few roles and responsibilities I’ve had.</p>
+          </div>
+          <ol class="timeline">
+            <li class="timeline__item reveal" data-tilt>
+              <div class="card scan spotlight" data-tilt>
+                <div class="card__head">
+                  <h3 class="card__title">Senior Software Engineer — Dubizzle Labs</h3>
+                  <span class="card__meta">Mar 2024 — Feb 2025</span>
+                </div>
+                <p>Maintained and enhanced a CRM platform for property management and contracts using Ruby on Rails. Built recurring meetings, area visualization reports powered by Elasticsearch, checkout integrations, and WhatsApp lens management via Gupshup/Unifonic. Led Agile sprints, mentored engineers, and improved performance with Redis caching.</p>
+                <ul class="card__tags">
+                  <li>Ruby on Rails</li>
+                  <li>Elasticsearch</li>
+                  <li>Redis & Sidekiq</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline__item reveal" data-tilt>
+              <div class="card scan spotlight" data-tilt>
+                <div class="card__head">
+                  <h3 class="card__title">Software Engineer — Engin Technologies</h3>
+                  <span class="card__meta">Oct 2021 — Feb 2024</span>
+                </div>
+                <p>Full‑stack and backend‑focused engineer across property tech, education, wellness, and AI. Contributed to architecture, scalable services, REST APIs, third‑party integrations, and performance optimizations using Rails, Django, PostgreSQL, Elasticsearch, Redis, React, and Ember.js.</p>
+                <ul class="card__tags">
+                  <li>Rails & Django</li>
+                  <li>PostgreSQL</li>
+                  <li>React / Ember</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Projects Section: add your projects with images/links -->
+      <section class="section" id="projects" aria-label="Projects">
+        <div class="container">
+          <div class="section__header" data-split>
+            <h2>Projects</h2>
+            <p class="section__lede">Selected work and experiments.</p>
+          </div>
+          <div class="projects__grid">
+            <article class="project-card reveal scan spotlight" data-tilt>
+              <img src="assets/projects/homeflow.png" alt="Homeflow real estate platform" width="640" height="400" loading="lazy" decoding="async" />
+              <div class="project-card__body">
+                <h3>Homeflow</h3>
+                <p>Real estate platform backend with advanced search, API integrations (REST & gRPC), and performance optimizations.</p>
+                <ul class="project-card__tags"><li>Rails</li><li>PostgreSQL</li><li>Elasticsearch</li></ul>
+                <div class="project-card__actions">
+                  <a class="btn btn--sm btn--ghost magnetic" href="#" target="_blank" rel="noopener">Case Study</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal scan spotlight" data-tilt>
+              <img src="assets/projects/bayut.jpg" alt="Jarvis CRM for Bayut/Zameen" width="640" height="400" loading="lazy" decoding="async" />
+              <div class="project-card__body">
+                <h3>Jarvis (Bayut/Zameen CRM)</h3>
+                <p>Enterprise CRM for property management and contract handling: recurring meetings, area visualisation via Elasticsearch, checkout integrations, and WhatsApp lens management (Gupshup/Unifonic). Led Agile delivery and mentoring.</p>
+                <ul class="project-card__tags"><li>Ruby on Rails</li><li>Elasticsearch</li><li>Redis/Sidekiq</li></ul>
+                <div class="project-card__actions">
+                  <a class="btn btn--sm btn--ghost magnetic" href="https://www.bayut.com/" target="_blank" rel="noopener">Visit Bayut</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal scan spotlight" data-tilt>
+              <img src="assets/projects/mindtales.png" alt="Mindtales wellness app" width="640" height="400" loading="lazy" decoding="async" />
+              <div class="project-card__body">
+                <h3>Mindtales</h3>
+                <p>Mental wellness platform with analytics and personalised content, backed by a robust Django API layer.</p>
+                <ul class="project-card__tags"><li>Django</li><li>APIs</li><li>Analytics</li></ul>
+                <div class="project-card__actions">
+                  <a class="btn btn--sm btn--ghost magnetic" href="https://www.mindtales.me/" target="_blank" rel="noopener">Visit</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal scan spotlight" data-tilt>
+              <img src="assets/projects/telbee.png" alt="Telbee voice messaging" width="640" height="400" loading="lazy" decoding="async" />
+              <div class="project-card__body">
+                <h3>Telbee</h3>
+                <p>Voice messaging platform focusing on concurrency, scalability, and third‑party integrations.</p>
+                <ul class="project-card__tags"><li>Django</li><li>Web</li><li>Integrations</li></ul>
+                <div class="project-card__actions">
+                  <a class="btn btn--sm btn--ghost magnetic" href="https://www.telbee.io/" target="_blank" rel="noopener">Visit</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal scan spotlight" data-tilt>
+              <img src="assets/projects/kitchen.png" alt="Kitchen Connection platform" width="640" height="400" loading="lazy" decoding="async" />
+              <div class="project-card__body">
+                <h3>Kitchen Connection</h3>
+                <p>Full‑stack Rails app for culinary experiences—backend optimisation, performance, and UX improvements.</p>
+                <ul class="project-card__tags"><li>Rails</li><li>Performance</li><li>UX</li></ul>
+                <div class="project-card__actions">
+                  <a class="btn btn--sm btn--ghost magnetic" href="https://www.facebook.com/KitchenConnection.org/" target="_blank" rel="noopener">Visit</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section: email link + simple form (mailto) -->
+      <section class="section" id="contact" aria-label="Contact">
+        <div class="container">
+          <div class="section__header" data-split>
+            <h2>Contact</h2>
+            <p class="section__lede">Have an opportunity or idea? Let’s talk.</p>
+          </div>
+
+          <div class="contact__grid">
+            <div class="contact__card reveal" data-tilt>
+              <h3 class="contact__title">Let’s build something great</h3>
+              <p class="contact__lede">Prefer email? Call? Pick what’s convenient. I usually respond within 24 hours.</p>
+              <a class="contact__cta ripple" href="mailto:sr54390@gmail.com">Email me</a>
+              <ul class="contact__list">
+                <li class="contact__row"><span class="icon">📍</span> Lahore, Punjab, Pakistan</li>
+                <li class="contact__row"><span class="icon">✉️</span> <a class="contact__row" href="mailto:sr54390@gmail.com">sr54390@gmail.com</a> <button class="copy-btn" data-copy="sr54390@gmail.com" aria-label="Copy email">Copy</button></li>
+                <li class="contact__row"><span class="icon">📞</span> <a class="contact__row" href="tel:+923368797279">+92 336 879 7279</a> <button class="copy-btn" data-copy="+923368797279" aria-label="Copy phone">Copy</button></li>
+                <li class="contact__row" style="gap:12px">
+                  <a href="https://www.linkedin.com/in/shaharyar-qureshi-0499a5142" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <img class="icon" src="assets/icons/linkedin.svg" alt="LinkedIn" width="24" height="24" />
+                  </a>
+                  <a href="https://github.com/shaharyar-qureshi" target="_blank" rel="noopener" aria-label="GitHub">
+                    <img class="icon" src="assets/icons/github.svg" alt="GitHub" width="24" height="24" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <form class="contact__form reveal" id="contact-form" novalidate data-tilt>
+              <div class="form__row">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name" />
+              </div>
+              <div class="form__row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+              </div>
+              <div class="form__row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project or role..."></textarea>
+              </div>
+              <div class="form__actions">
+                <button type="submit" class="btn btn--primary magnetic ripple">Send</button>
+                <p class="form__hint">This uses your email client via mailto; no data is stored.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> Shaharyar Qureshi. All rights reserved.</p>
+        <a href="#top" class="to-top magnetic" aria-label="Back to top">↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html> 
